@@ -1,0 +1,101 @@
+/* Custom Styles */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/* Global */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Page */
+
+.banner-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banner-button {
+    min-width: 255px;
+    margin-bottom: 1rem;
+}
+
+/* Map Page */
+
+#map {
+    height: 100%;
+}
+
+#navigation-icon-container {
+    position: absolute;
+    display: flex;
+    align-content: flex-start;
+    top: 1rem;
+    left: 1rem;
+    height: 50px;
+    z-index: 10;
+}
+
+#logo-container {
+    height: 100%;
+}
+
+#esk8-navigation-logo {
+    height: 100%;
+    box-shadow: 0 0 1rem .1rem rgba(0,0,0,.4);
+}
+
+#map-info {
+    box-sizing: border-box;
+    vertical-align: baseline;
+    position: fixed;
+    cursor: pointer;
+    width: 12rem;
+    bottom: 1rem;
+    left: 1rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,.3);
+    padding: 1rem;
+    background-color: #fff;
+    font-size: 100%;
+    font-family: Arial,sans-serif;
+}
+
+#info-toggle {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: Oswald,Arial,sans-serif;
+}
+
+ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    margin-bottom: .5rem;
+}
+
+#info-icons {
+
+}
+
+.map-icon {
+    height: 20px;
+    margin-right: .5rem;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.code {
+    font-family: 'Courier 10 Pitch',Courier,monospace;
+}
