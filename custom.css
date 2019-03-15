@@ -69,16 +69,20 @@ html, body {
     font-family: Oswald,Arial,sans-serif;
 }
 
-#info-icons {
+ul {
     display: none;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.info-icon-list-element {
+li {
     display: flex;
     margin-bottom: .5rem;
+}
+
+#info-icons {
+
 }
 
 .map-icon {
